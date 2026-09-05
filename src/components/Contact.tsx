@@ -13,7 +13,7 @@ const Contact = () => {
         </p>
         <a
         
-          href="mailto:clement.sene@example.com?subject=Contact via votre portfolio"
+          href="mailto:clement.sene@edu.univ-paris13.fr?subject=Contact via votre portfolio"
           className="btn btn-accent btn-lg gap-2"
         >
           <Mail className="w-5 h-5" />
