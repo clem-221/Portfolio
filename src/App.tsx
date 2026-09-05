@@ -1,11 +1,32 @@
+import AboutMe from './components/AboutMe'
+import BarreNavigation from './components/BarreNavigation'
+import Contact from './components/Contact'
+import ExperiencesProfessionnelles from './components/ExperiencesProfessionnelles'
+import Footer from './components/Footer'
+import Home from './components/Home'
+import ParcoursAcadémique from './components/ParcoursAcademique'
+import Projets from './components/Projets'
 import './index.css'
 
 function App() {
 
   return (
     <div>
-      <h1 className="text-3xl font-bold text-primary">Hello world!</h1>
-      <button className="btn btn-primary">Test daisyUI</button>
+
+      <div className="p-5 md:px-[5%]">
+        <BarreNavigation />
+        <Home />
+      </div>
+
+      <AboutMe />
+      <ParcoursAcadémique />
+
+      <ExperiencesProfessionnelles />
+      <Projets />
+      <Contact />
+      <Footer />
+      
+
     </div>
   )
 }
