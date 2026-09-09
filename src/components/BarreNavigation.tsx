@@ -44,7 +44,7 @@ const BarreNavigation = () => {
                 ))}
                 <li className="w-full md:w-auto">
                     <a
-                        href="/cv-clement-sene.pdf"
+                        href="CV_Clement_SENE.pdf"
                         download
                         target="_blank"
                         rel="noopener noreferrer"
