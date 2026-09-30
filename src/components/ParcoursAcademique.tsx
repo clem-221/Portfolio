@@ -22,9 +22,15 @@ const formations = [
   },
   {
     id: 4,
-    titre: "BUT 2 Technologie de l'Information",
+    titre: "BUT 2 Informatique & Science des Données",
     etablissement: "IUT de Villetaneuse - Université Sorbonne Paris Nord",
     periode: "2025 - 2026",
+  },
+  {
+    id: 5,
+    titre: "BUT 3 Informatique",
+    etablissement: "IUT de Villetaneuse - Université Sorbonne Paris Nord",
+    periode: "2026 - 2027",
   },
 ]
 
