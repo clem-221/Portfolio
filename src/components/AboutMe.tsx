@@ -18,6 +18,7 @@ import imgMYSQL from "../assets/techno/mySql.jpg";
 import imgGIT from "../assets/techno/git.jpg";
 import imgGITHUB from "../assets/techno/github.jpg";
 import imgGITLAB from "../assets/techno/gitlab.jpg";
+import imgDOCKER from "../assets/techno/docker.webp";
 
 const AboutMe = () => {
 
@@ -60,6 +61,7 @@ const AboutMe = () => {
         { id: 15, name: "Git", image: imgGIT },
         { id: 16, name: "GitHub", image: imgGITHUB },
         { id: 17, name: "Gitlab", image: imgGITLAB },
+        { id: 18, name: "Docker", image: imgDOCKER },
     ]
 
     return (
