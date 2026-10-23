@@ -30,8 +30,6 @@ const experiences: Experience[] = [
             "Sécuriser les clés d'API en les sortant du code des plugins (variables définies dans wp-config.php)",
             "Ajouter des fonctionnalités sur mesure (historique des chansons, boutons « like », nuage d'émissions) et du CSS responsive",
         ],
-        // Ajoute ici un résultat réel si tu en as un, par exemple :
-        // resultat: "Les équipes n'ont plus à publier manuellement leurs contenus sur le site.",
         skills: ["WordPress", "PHP", "Intégration d'API", "HTML/CSS", "JavaScript", "SFTP"],
         logo: otoradio,
         logoAlt: "Logo OTORADIO",

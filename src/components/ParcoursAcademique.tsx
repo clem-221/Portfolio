@@ -10,7 +10,6 @@ interface Formation {
   details?: string[]
 }
 
-// Ordre antéchronologique : le plus récent d'abord, c'est ce que le recruteur regarde
 const formations: Formation[] = [
   {
     id: 1,
@@ -19,9 +18,8 @@ const formations: Formation[] = [
     periode: "2026 - 2027",
     enCours: true,
     details: [
-      // À compléter avec ton parcours et tes matières clés, par exemple :
-      // "Parcours : ...",
-      // "Projets : SAÉ de recommandation de voyages (Flask, React, Docker)",
+      "Parcours : Réalisation d'applications web (conception, développement, validation)",
+      "Projet : SAÉ de recommandation de voyages - Flask, React, Docker (en cours)",
     ],
   },
   {
