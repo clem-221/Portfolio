@@ -1,5 +1,7 @@
 import { useState } from 'react'
 import { Home, Menu, X } from 'lucide-react'
+import { CV_PATH } from "../constants"
+
 
 const BarreNavigation = () => {
     const [menuOpen, setMenuOpen] = useState(false)
@@ -14,9 +16,9 @@ const BarreNavigation = () => {
     ]
 
     return (
-        <div className="flex flex-col md:flex-row items-center justify-between p-4 bg-gray-100 shadow-md relative">
+        <div className="sticky top-0 z-50 flex flex-col md:flex-row items-center justify-between p-4 bg-base-100 shadow-md">
             <div className="flex items-center justify-between w-full md:w-auto">
-                <a href="Accueil" className="flex items-center text-3xl text-gray-700 hover:text-gray-900 transition-colors duration-300 md:text-xl">
+                <a href="#Home" className="flex items-center text-3xl text-gray-700 hover:text-gray-900 transition-colors duration-300 md:text-xl">
                     <Home className='mr-2' />
                     <span className="font-bold">Clément SENE</span>
                 </a>
@@ -36,7 +38,7 @@ const BarreNavigation = () => {
                         <a
                             href={link.href}
                             onClick={() => setMenuOpen(false)}
-                            className="btn btn-small btn-ghost w-full md:w-auto"
+                            className="btn btn-sm btn-ghost w-full md:w-auto"
                         >
                             {link.label}
                         </a>
@@ -44,11 +46,11 @@ const BarreNavigation = () => {
                 ))}
                 <li className="w-full md:w-auto">
                     <a
-                        href="CV_Clement_SENE.pdf"
+                        href={CV_PATH}
                         download
                         target="_blank"
                         rel="noopener noreferrer"
-                        className="btn btn-small btn-accent w-full md:w-auto"
+                        className="btn btn-sm btn-accent w-full md:w-auto"
                     >
                         CV
                     </a>
