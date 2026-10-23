@@ -15,7 +15,7 @@ const Home = () => {
         </h1>
 
         <p className="text-xl md:text-2xl font-semibold text-center md:text-left mt-4">
-          Étudiant en BUT 3 Informatique, en recherche d'une alternance en développement web full stack.
+          Étudiant en BUT 3 Informatique, disponible pour un stage (14 à 16 semaines) en développement web full stack à partir du 08 mars 2027.
         </p>
 
         <p className="text-base md:text-lg text-center md:text-left mt-2 text-base-content/70">

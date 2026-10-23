@@ -24,7 +24,7 @@ const Contact = () => {
 
       <div className="flex flex-col items-center gap-6 mt-10 text-center">
         <p className="text-lg md:text-xl max-w-xl">
-          Je recherche une alternance en développement web full stack, disponible dès que possible.
+          Je recherche un stage en développement web full stack, disponible dès le 08 mars 2027.
           N'hésitez pas à m'écrire pour échanger sur mon profil et mes projets.
         </p>
 

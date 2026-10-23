@@ -11,7 +11,7 @@ const Footer = () => {
             <Home className='w-10 h-10' />
         </a>
         <p className="font-bold text-lg">Clément SENE</p>
-        <p>Étudiant en BUT 3 Informatique · Recherche d'alternance en développement web</p>
+        <p>Étudiant en BUT 3 Informatique · Recherche de stage (14 à 16 semaines) en développement web</p>
         <p>Copyright © {new Date().getFullYear()} - Tous droits réservés</p>
       </aside>
 
